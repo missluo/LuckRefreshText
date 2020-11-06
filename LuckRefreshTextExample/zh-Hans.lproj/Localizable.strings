@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  LuckRefreshTextExample
+
+  Created by binbin on 2020/11/6.
+  
+*/
+"label1" = "按钮1";
+"label2" = "按钮2";
+"label3" = "按钮3";
+"label4" = "按钮4";
+"label5" = "按钮5";
+"label6" = "按钮6";
+
+"lun" = "英文";

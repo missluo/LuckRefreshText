@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E583EB6255507E400E93804 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E583EB5255507E400E93804 /* AppDelegate.m */; };
+		2E583EB9255507E400E93804 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E583EB8255507E400E93804 /* SceneDelegate.m */; };
+		2E583EBF255507E400E93804 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E583EBD255507E400E93804 /* Main.storyboard */; };
+		2E583EC1255507E600E93804 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E583EC0255507E600E93804 /* Assets.xcassets */; };
+		2E583EC4255507E600E93804 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E583EC2255507E600E93804 /* LaunchScreen.storyboard */; };
+		2E583EC7255507E600E93804 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E583EC6255507E600E93804 /* main.m */; };
+		2E583F602555355B00E93804 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E583F622555355B00E93804 /* Localizable.strings */; };
+		2E583F9F2555455800E93804 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E583EBB255507E400E93804 /* ViewController.m */; };
+		2E583FA12555464800E93804 /* LuckRefreshText.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E583FA02555464800E93804 /* LuckRefreshText.xcframework */; };
+		D3BE83E9E8080F1E3CB0F89B /* Pods_LuckRefreshTextExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E583F422555301400E93804 /* Pods_LuckRefreshTextExample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2E583F9E2555454800E93804 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2E583EB1255507E400E93804 /* LuckRefreshTextExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuckRefreshTextExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E583EB4255507E400E93804 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E583EB5255507E400E93804 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E583EB7255507E400E93804 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		2E583EB8255507E400E93804 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		2E583EBA255507E400E93804 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2E583EBB255507E400E93804 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2E583EBE255507E400E93804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E583EC0255507E600E93804 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E583EC3255507E600E93804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E583EC5255507E600E93804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E583EC6255507E600E93804 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E583EF4255508DC00E93804 /* LuckRefreshText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LuckRefreshText.h; sourceTree = "<group>"; };
+		2E583EF5255508DC00E93804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E583F012555091400E93804 /* LocalizedDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalizedDefine.h; sourceTree = "<group>"; };
+		2E583F022555091400E93804 /* NSBundle+Localozed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Localozed.h"; sourceTree = "<group>"; };
+		2E583F032555091400E93804 /* NSObject+RefreshText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+RefreshText.h"; sourceTree = "<group>"; };
+		2E583F042555091400E93804 /* NSObject+RefreshText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+RefreshText.m"; sourceTree = "<group>"; };
+		2E583F052555091400E93804 /* NSBundle+Localozed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Localozed.m"; sourceTree = "<group>"; };
+		2E583F162555095300E93804 /* Aspects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Aspects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E583F1F2555099200E93804 /* Aspects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Aspects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E583F202555099200E93804 /* Pods_LuckRefreshTextExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_LuckRefreshTextExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E583F2E255522DE00E93804 /* Pods_LuckRefreshTextExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_LuckRefreshTextExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E583F36255522FD00E93804 /* Aspects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Aspects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E583F3B25552FCC00E93804 /* JGFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGFileManager.m; sourceTree = "<group>"; };
+		2E583F3C25552FCC00E93804 /* JGFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGFileManager.h; sourceTree = "<group>"; };
+		2E583F422555301400E93804 /* Pods_LuckRefreshTextExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_LuckRefreshTextExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E583F562555353400E93804 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		2E583F572555353400E93804 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		2E583F612555355B00E93804 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2E583F662555356000E93804 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		2E583FA02555464800E93804 /* LuckRefreshText.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = LuckRefreshText.xcframework; sourceTree = "<group>"; };
+		459693201AD8B949E73A6294 /* Pods-LuckRefreshText.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckRefreshText.debug.xcconfig"; path = "Target Support Files/Pods-LuckRefreshText/Pods-LuckRefreshText.debug.xcconfig"; sourceTree = "<group>"; };
+		487AE7E64131356E70DBF7CB /* Pods-LuckRefreshTextExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckRefreshTextExample.release.xcconfig"; path = "Target Support Files/Pods-LuckRefreshTextExample/Pods-LuckRefreshTextExample.release.xcconfig"; sourceTree = "<group>"; };
+		5EF74AC697101221CBAFF7FD /* Pods_LuckRefreshText.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuckRefreshText.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8058C6D16372036418F0CA84 /* Pods-LuckRefreshTextExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckRefreshTextExample.debug.xcconfig"; path = "Target Support Files/Pods-LuckRefreshTextExample/Pods-LuckRefreshTextExample.debug.xcconfig"; sourceTree = "<group>"; };
+		AE7361909F70A2B2E28A153C /* Pods-LuckRefreshText.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckRefreshText.release.xcconfig"; path = "Target Support Files/Pods-LuckRefreshText/Pods-LuckRefreshText.release.xcconfig"; sourceTree = "<group>"; };
+		EEA41B07878E26B9B2B95E1B /* Pods_LuckRefreshTextExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuckRefreshTextExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E583EAE255507E400E93804 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E583FA12555464800E93804 /* LuckRefreshText.xcframework in Frameworks */,
+				D3BE83E9E8080F1E3CB0F89B /* Pods_LuckRefreshTextExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B6CF2E56D0D56EFCAE2D1EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				459693201AD8B949E73A6294 /* Pods-LuckRefreshText.debug.xcconfig */,
+				AE7361909F70A2B2E28A153C /* Pods-LuckRefreshText.release.xcconfig */,
+				8058C6D16372036418F0CA84 /* Pods-LuckRefreshTextExample.debug.xcconfig */,
+				487AE7E64131356E70DBF7CB /* Pods-LuckRefreshTextExample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2E583EA8255507E300E93804 = {
+			isa = PBXGroup;
+			children = (
+				2E583EB3255507E400E93804 /* LuckRefreshTextExample */,
+				2E583EF3255508DC00E93804 /* LuckRefreshText */,
+				2E583EB2255507E400E93804 /* Products */,
+				2B6CF2E56D0D56EFCAE2D1EC /* Pods */,
+				BBC21F6F83F7B6E6A88F5F45 /* Frameworks */,
+				2E583F27255522A600E93804 /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		2E583EB2255507E400E93804 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E583EB1255507E400E93804 /* LuckRefreshTextExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E583EB3255507E400E93804 /* LuckRefreshTextExample */ = {
+			isa = PBXGroup;
+			children = (
+				2E583F982555449B00E93804 /* LuckRefreshText */,
+				2E583EB4255507E400E93804 /* AppDelegate.h */,
+				2E583EB5255507E400E93804 /* AppDelegate.m */,
+				2E583EB7255507E400E93804 /* SceneDelegate.h */,
+				2E583EB8255507E400E93804 /* SceneDelegate.m */,
+				2E583F622555355B00E93804 /* Localizable.strings */,
+				2E583EBA255507E400E93804 /* ViewController.h */,
+				2E583EBB255507E400E93804 /* ViewController.m */,
+				2E583EBD255507E400E93804 /* Main.storyboard */,
+				2E583EC0255507E600E93804 /* Assets.xcassets */,
+				2E583EC2255507E600E93804 /* LaunchScreen.storyboard */,
+				2E583EC5255507E600E93804 /* Info.plist */,
+				2E583EC6255507E600E93804 /* main.m */,
+			);
+			path = LuckRefreshTextExample;
+			sourceTree = "<group>";
+		};
+		2E583EF3255508DC00E93804 /* LuckRefreshText */ = {
+			isa = PBXGroup;
+			children = (
+				2E583F002555091400E93804 /* RefreshText */,
+				2E583EF4255508DC00E93804 /* LuckRefreshText.h */,
+				2E583EF5255508DC00E93804 /* Info.plist */,
+			);
+			path = LuckRefreshText;
+			sourceTree = "<group>";
+		};
+		2E583F002555091400E93804 /* RefreshText */ = {
+			isa = PBXGroup;
+			children = (
+				2E583F012555091400E93804 /* LocalizedDefine.h */,
+				2E583F022555091400E93804 /* NSBundle+Localozed.h */,
+				2E583F052555091400E93804 /* NSBundle+Localozed.m */,
+				2E583F032555091400E93804 /* NSObject+RefreshText.h */,
+				2E583F042555091400E93804 /* NSObject+RefreshText.m */,
+				2E583F3C25552FCC00E93804 /* JGFileManager.h */,
+				2E583F3B25552FCC00E93804 /* JGFileManager.m */,
+			);
+			path = RefreshText;
+			sourceTree = "<group>";
+		};
+		2E583F27255522A600E93804 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				2E583F202555099200E93804 /* Pods_LuckRefreshTextExample.framework */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		2E583F982555449B00E93804 /* LuckRefreshText */ = {
+			isa = PBXGroup;
+			children = (
+				2E583FA02555464800E93804 /* LuckRefreshText.xcframework */,
+			);
+			path = LuckRefreshText;
+			sourceTree = SOURCE_ROOT;
+		};
+		BBC21F6F83F7B6E6A88F5F45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E583F422555301400E93804 /* Pods_LuckRefreshTextExample.framework */,
+				2E583F36255522FD00E93804 /* Aspects.framework */,
+				2E583F2E255522DE00E93804 /* Pods_LuckRefreshTextExample.framework */,
+				2E583F1F2555099200E93804 /* Aspects.framework */,
+				2E583F162555095300E93804 /* Aspects.framework */,
+				5EF74AC697101221CBAFF7FD /* Pods_LuckRefreshText.framework */,
+				EEA41B07878E26B9B2B95E1B /* Pods_LuckRefreshTextExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E583EB0255507E400E93804 /* LuckRefreshTextExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E583ECA255507E600E93804 /* Build configuration list for PBXNativeTarget "LuckRefreshTextExample" */;
+			buildPhases = (
+				74F98E020B2D520033BAA000 /* [CP] Check Pods Manifest.lock */,
+				2E583EAD255507E400E93804 /* Sources */,
+				2E583EAE255507E400E93804 /* Frameworks */,
+				2E583EAF255507E400E93804 /* Resources */,
+				6E9C3C26A41FD8DEBF00A449 /* [CP] Embed Pods Frameworks */,
+				2E583F9E2555454800E93804 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuckRefreshTextExample;
+			productName = LuckRefreshTextExample;
+			productReference = 2E583EB1255507E400E93804 /* LuckRefreshTextExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E583EA9255507E300E93804 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					2E583EB0255507E400E93804 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 2E583EAC255507E300E93804 /* Build configuration list for PBXProject "LuckRefreshTextExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 2E583EA8255507E300E93804;
+			productRefGroup = 2E583EB2255507E400E93804 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E583EB0255507E400E93804 /* LuckRefreshTextExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E583EAF255507E400E93804 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E583EC4255507E600E93804 /* LaunchScreen.storyboard in Resources */,
+				2E583F602555355B00E93804 /* Localizable.strings in Resources */,
+				2E583EC1255507E600E93804 /* Assets.xcassets in Resources */,
+				2E583EBF255507E400E93804 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6E9C3C26A41FD8DEBF00A449 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LuckRefreshTextExample/Pods-LuckRefreshTextExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LuckRefreshTextExample/Pods-LuckRefreshTextExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LuckRefreshTextExample/Pods-LuckRefreshTextExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74F98E020B2D520033BAA000 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LuckRefreshTextExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E583EAD255507E400E93804 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E583EB6255507E400E93804 /* AppDelegate.m in Sources */,
+				2E583EC7255507E600E93804 /* main.m in Sources */,
+				2E583F9F2555455800E93804 /* ViewController.m in Sources */,
+				2E583EB9255507E400E93804 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E583EBD255507E400E93804 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E583EBE255507E400E93804 /* Base */,
+				2E583F562555353400E93804 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E583EC2255507E600E93804 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E583EC3255507E600E93804 /* Base */,
+				2E583F572555353400E93804 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2E583F622555355B00E93804 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E583F612555355B00E93804 /* en */,
+				2E583F662555356000E93804 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E583EC8255507E600E93804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2E583EC9255507E600E93804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E583ECB255507E600E93804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8058C6D16372036418F0CA84 /* Pods-LuckRefreshTextExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 5RLSJMAA2P;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Aspects-iOS14.0\"",
+					"$(PROJECT_DIR)/LuckRefreshText",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Aspects-iOS14.0/Aspects.framework/Headers\"",
+					"\"$(SRCROOT)/LuckRefreshText/LuckRefreshText.xcframework\"",
+				);
+				INFOPLIST_FILE = LuckRefreshTextExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Aspects\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-111.LuckRefreshTextExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "all_dev_PP(0929)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E583ECC255507E600E93804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 487AE7E64131356E70DBF7CB /* Pods-LuckRefreshTextExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 5RLSJMAA2P;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Aspects-iOS14.0\"",
+					"\"$(SRCROOT)/LuckRefreshText/LuckRefreshText.xcframework\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Aspects-iOS14.0/Aspects.framework/Headers\"",
+					"\"$(SRCROOT)/LuckRefreshText/LuckRefreshText.xcframework\"",
+				);
+				INFOPLIST_FILE = LuckRefreshTextExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Aspects\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-111.LuckRefreshTextExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "all_dev_PP(0929)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E583EAC255507E300E93804 /* Build configuration list for PBXProject "LuckRefreshTextExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E583EC8255507E600E93804 /* Debug */,
+				2E583EC9255507E600E93804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E583ECA255507E600E93804 /* Build configuration list for PBXNativeTarget "LuckRefreshTextExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E583ECB255507E600E93804 /* Debug */,
+				2E583ECC255507E600E93804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E583EA9255507E300E93804 /* Project object */;
+}
